@@ -5,7 +5,7 @@ export class CustomRichTextEditor
   // Reference to ComponentFramework Context object
   private _context: ComponentFramework.Context<IInputs>;
 
-  // PCF framework delegate which will be assigned to this object which would be called whenever any update happens..
+  // PCF framework delegate which will be assigned to this object which would be called whenever any update happens...
   private _notifyOutputChanged: () => void;
 
   private _container: HTMLDivElement;
