@@ -1,5 +1,5 @@
 {
-  "name": "pcf-project",
+  "name": "pcf-richtext",
   "version": "1.0.0",
   "description": "Project containing your PowerApps Component Framework (PCF) control.",
   "scripts": {
@@ -16,5 +16,8 @@
   "devDependencies": {
     "pcf-scripts": "^1",
     "pcf-start": "^1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
